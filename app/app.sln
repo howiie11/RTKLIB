@@ -1,0 +1,62 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtknavi_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/rtknavi_qt\rtknavi_qt.vcxproj", "{C19191A5-4D21-3546-A96C-EA2F1EF96106}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtkget_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/rtkget_qt\rtkget_qt.vcxproj", "{FF3944C1-2C20-3798-8DC8-AB568DF5EFCC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtkplot_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/rtkplot_qt\rtkplot_qt.vcxproj", "{47DDCEC8-AD82-3257-8520-7DB5B5973D6F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtkpost_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/rtkpost_qt\rtkpost_qt.vcxproj", "{71BCD858-A8DB-30A2-92F6-34017CB96ADA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtklaunch_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/rtklaunch_qt\rtklaunch_qt.vcxproj", "{7B5952CE-3EDC-3FC5-A7F9-286A70A692F3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "srctblbrows_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/srctblbrows_qt\srctblbrows_qt.vcxproj", "{B29E789F-0D7E-367A-9E1D-B45CE84E9BF3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "strsvr_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/strsvr_qt\strsvr_qt.vcxproj", "{1233959F-08E2-3056-92C6-8B292D99D01E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "rtkconv_qt", "E:/Haowei/SOUTH/Software/GitHub/RTKLIB/app/rtkconv_qt\rtkconv_qt.vcxproj", "{5A674955-B954-3F82-8B7A-4CC5787C76B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C19191A5-4D21-3546-A96C-EA2F1EF96106}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C19191A5-4D21-3546-A96C-EA2F1EF96106}.Debug|Win32.Build.0 = Debug|Win32
+		{C19191A5-4D21-3546-A96C-EA2F1EF96106}.Release|Win32.ActiveCfg = Release|Win32
+		{C19191A5-4D21-3546-A96C-EA2F1EF96106}.Release|Win32.Build.0 = Release|Win32
+		{FF3944C1-2C20-3798-8DC8-AB568DF5EFCC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FF3944C1-2C20-3798-8DC8-AB568DF5EFCC}.Debug|Win32.Build.0 = Debug|Win32
+		{FF3944C1-2C20-3798-8DC8-AB568DF5EFCC}.Release|Win32.ActiveCfg = Release|Win32
+		{FF3944C1-2C20-3798-8DC8-AB568DF5EFCC}.Release|Win32.Build.0 = Release|Win32
+		{47DDCEC8-AD82-3257-8520-7DB5B5973D6F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{47DDCEC8-AD82-3257-8520-7DB5B5973D6F}.Debug|Win32.Build.0 = Debug|Win32
+		{47DDCEC8-AD82-3257-8520-7DB5B5973D6F}.Release|Win32.ActiveCfg = Release|Win32
+		{47DDCEC8-AD82-3257-8520-7DB5B5973D6F}.Release|Win32.Build.0 = Release|Win32
+		{71BCD858-A8DB-30A2-92F6-34017CB96ADA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{71BCD858-A8DB-30A2-92F6-34017CB96ADA}.Debug|Win32.Build.0 = Debug|Win32
+		{71BCD858-A8DB-30A2-92F6-34017CB96ADA}.Release|Win32.ActiveCfg = Release|Win32
+		{71BCD858-A8DB-30A2-92F6-34017CB96ADA}.Release|Win32.Build.0 = Release|Win32
+		{7B5952CE-3EDC-3FC5-A7F9-286A70A692F3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7B5952CE-3EDC-3FC5-A7F9-286A70A692F3}.Debug|Win32.Build.0 = Debug|Win32
+		{7B5952CE-3EDC-3FC5-A7F9-286A70A692F3}.Release|Win32.ActiveCfg = Release|Win32
+		{7B5952CE-3EDC-3FC5-A7F9-286A70A692F3}.Release|Win32.Build.0 = Release|Win32
+		{B29E789F-0D7E-367A-9E1D-B45CE84E9BF3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B29E789F-0D7E-367A-9E1D-B45CE84E9BF3}.Debug|Win32.Build.0 = Debug|Win32
+		{B29E789F-0D7E-367A-9E1D-B45CE84E9BF3}.Release|Win32.ActiveCfg = Release|Win32
+		{B29E789F-0D7E-367A-9E1D-B45CE84E9BF3}.Release|Win32.Build.0 = Release|Win32
+		{1233959F-08E2-3056-92C6-8B292D99D01E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1233959F-08E2-3056-92C6-8B292D99D01E}.Debug|Win32.Build.0 = Debug|Win32
+		{1233959F-08E2-3056-92C6-8B292D99D01E}.Release|Win32.ActiveCfg = Release|Win32
+		{1233959F-08E2-3056-92C6-8B292D99D01E}.Release|Win32.Build.0 = Release|Win32
+		{5A674955-B954-3F82-8B7A-4CC5787C76B4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5A674955-B954-3F82-8B7A-4CC5787C76B4}.Debug|Win32.Build.0 = Debug|Win32
+		{5A674955-B954-3F82-8B7A-4CC5787C76B4}.Release|Win32.ActiveCfg = Release|Win32
+		{5A674955-B954-3F82-8B7A-4CC5787C76B4}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

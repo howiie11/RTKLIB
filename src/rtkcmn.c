@@ -3241,7 +3241,8 @@ extern int reppath(const char *path, char *rpath, gtime_t time, const char *rov,
         sprintf(rep,"%02.0f",fmod(ep[0],100.0));  stat|=repstr(rpath,"%y",rep);
         sprintf(rep,"%02.0f",ep[1]);              stat|=repstr(rpath,"%m",rep);
         sprintf(rep,"%02.0f",ep[2]);              stat|=repstr(rpath,"%d",rep);
-        sprintf(rep,"%02.0f",ep[3]);              stat|=repstr(rpath,"%h",rep);
+        //sprintf(rep,"%02.0f",ep[3]);              stat|=repstr(rpath,"%h",rep);
+		sprintf(rep,"%02d",  ((int)ep[3]/6)*6);   stat|=repstr(rpath,"%h",rep);
         sprintf(rep,"%02.0f",ep[4]);              stat|=repstr(rpath,"%M",rep);
         sprintf(rep,"%02.0f",floor(ep[5]));       stat|=repstr(rpath,"%S",rep);
         sprintf(rep,"%03d",  doy);                stat|=repstr(rpath,"%n",rep);

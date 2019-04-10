@@ -270,7 +270,7 @@ static void compact_paths(paths_t *paths)
     }
 }
 /* generate local directory recursively --------------------------------------*/
-static int mkdir_r(const char *dir)
+ int mkdir_r(const char *dir)
 {
     char pdir[1024],*p;
     
