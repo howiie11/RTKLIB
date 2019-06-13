@@ -1034,3 +1034,16 @@ extern int input_rawf(raw_t *raw, int format, FILE *fp)
     }
     return -2;
 }
+
+
+int input_tersus(raw_t *raw, unsigned char data)
+{
+	//应该是忘了实现
+	return 0;
+}
+
+int input_tersusf(raw_t *raw, unsigned char data)
+{
+	//应该是忘了实现
+	return 0;
+}

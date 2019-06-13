@@ -587,20 +587,7 @@
            </property>
           </widget>
          </item>
-         <item row="2" column="4" colspan="2">
-          <widget class="QLabel" name="Label2">
-           <property name="enabled">
-            <bool>true</bool>
-           </property>
-           <property name="toolTip">
-            <string/>
-           </property>
-           <property name="text">
-            <string>Conv</string>
-           </property>
-          </widget>
-         </item>
-         <item row="3" column="0">
+         <item row="4" column="0">
           <widget class="QLabel" name="IndOutput1">
            <property name="enabled">
             <bool>true</bool>
@@ -637,7 +624,7 @@
            </property>
           </widget>
          </item>
-         <item row="3" column="1">
+         <item row="4" column="1">
           <widget class="QLabel" name="LabelOutput1">
            <property name="enabled">
             <bool>true</bool>
@@ -687,7 +674,7 @@
            </property>
           </widget>
          </item>
-         <item row="3" column="2">
+         <item row="4" column="2">
           <widget class="QComboBox" name="Output1">
            <property name="enabled">
             <bool>true</bool>
@@ -727,7 +714,7 @@
            </item>
           </widget>
          </item>
-         <item row="3" column="3" colspan="2">
+         <item row="4" column="3" colspan="2">
           <widget class="QPushButton" name="BtnOutput1">
            <property name="enabled">
             <bool>true</bool>
@@ -743,7 +730,7 @@
            </property>
           </widget>
          </item>
-         <item row="3" column="5">
+         <item row="4" column="5">
           <widget class="QPushButton" name="BtnConv1">
            <property name="enabled">
             <bool>false</bool>
@@ -759,7 +746,7 @@
            </property>
           </widget>
          </item>
-         <item row="3" column="6">
+         <item row="4" column="6">
           <widget class="QLabel" name="Output1Byte">
            <property name="enabled">
             <bool>true</bool>
@@ -809,7 +796,7 @@
            </property>
           </widget>
          </item>
-         <item row="3" column="7">
+         <item row="4" column="7">
           <widget class="QLabel" name="Output1Bps">
            <property name="enabled">
             <bool>true</bool>
@@ -859,7 +846,7 @@
            </property>
           </widget>
          </item>
-         <item row="4" column="0">
+         <item row="5" column="0">
           <widget class="QLabel" name="IndOutput2">
            <property name="enabled">
             <bool>true</bool>
@@ -896,7 +883,7 @@
            </property>
           </widget>
          </item>
-         <item row="4" column="1">
+         <item row="5" column="1">
           <widget class="QLabel" name="LabelOutput2">
            <property name="enabled">
             <bool>true</bool>
@@ -946,7 +933,7 @@
            </property>
           </widget>
          </item>
-         <item row="4" column="2">
+         <item row="5" column="2">
           <widget class="QComboBox" name="Output2">
            <property name="enabled">
             <bool>true</bool>
@@ -986,7 +973,7 @@
            </item>
           </widget>
          </item>
-         <item row="4" column="3" colspan="2">
+         <item row="5" column="3" colspan="2">
           <widget class="QPushButton" name="BtnOutput2">
            <property name="enabled">
             <bool>true</bool>
@@ -1002,7 +989,7 @@
            </property>
           </widget>
          </item>
-         <item row="4" column="5">
+         <item row="5" column="5">
           <widget class="QPushButton" name="BtnConv2">
            <property name="enabled">
             <bool>false</bool>
@@ -1018,7 +1005,7 @@
            </property>
           </widget>
          </item>
-         <item row="4" column="6">
+         <item row="5" column="6">
           <widget class="QLabel" name="Output2Byte">
            <property name="enabled">
             <bool>true</bool>
@@ -1068,7 +1055,7 @@
            </property>
           </widget>
          </item>
-         <item row="4" column="7">
+         <item row="5" column="7">
           <widget class="QLabel" name="Output2Bps">
            <property name="enabled">
             <bool>true</bool>
@@ -1118,7 +1105,7 @@
            </property>
           </widget>
          </item>
-         <item row="5" column="0">
+         <item row="6" column="0">
           <widget class="QLabel" name="IndOutput3">
            <property name="enabled">
             <bool>true</bool>
@@ -1155,7 +1142,7 @@
            </property>
           </widget>
          </item>
-         <item row="5" column="1">
+         <item row="6" column="1">
           <widget class="QLabel" name="LabelOutput3">
            <property name="enabled">
             <bool>true</bool>
@@ -1205,7 +1192,7 @@
            </property>
           </widget>
          </item>
-         <item row="5" column="2">
+         <item row="6" column="2">
           <widget class="QComboBox" name="Output3">
            <property name="enabled">
             <bool>true</bool>
@@ -1245,7 +1232,7 @@
            </item>
           </widget>
          </item>
-         <item row="5" column="3" colspan="2">
+         <item row="6" column="3" colspan="2">
           <widget class="QPushButton" name="BtnOutput3">
            <property name="enabled">
             <bool>true</bool>
@@ -1261,7 +1248,7 @@
            </property>
           </widget>
          </item>
-         <item row="5" column="5">
+         <item row="6" column="5">
           <widget class="QPushButton" name="BtnConv3">
            <property name="enabled">
             <bool>false</bool>
@@ -1277,7 +1264,7 @@
            </property>
           </widget>
          </item>
-         <item row="5" column="6">
+         <item row="6" column="6">
           <widget class="QLabel" name="Output3Byte">
            <property name="enabled">
             <bool>true</bool>
@@ -1327,7 +1314,7 @@
            </property>
           </widget>
          </item>
-         <item row="5" column="7">
+         <item row="6" column="7">
           <widget class="QLabel" name="Output3Bps">
            <property name="enabled">
             <bool>true</bool>
@@ -1374,6 +1361,22 @@
            </property>
            <property name="text">
             <string>0</string>
+           </property>
+          </widget>
+         </item>
+         <item row="3" column="5">
+          <widget class="QLabel" name="Label2">
+           <property name="enabled">
+            <bool>true</bool>
+           </property>
+           <property name="toolTip">
+            <string/>
+           </property>
+           <property name="text">
+            <string>Conv</string>
+           </property>
+           <property name="alignment">
+            <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
            </property>
           </widget>
          </item>

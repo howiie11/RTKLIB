@@ -526,6 +526,7 @@ void MainForm::SvrStart(void)
 {
     strconv_t *conv[3]={0};
     static char str[4][1024];
+	static char temp[4][1024];
     int itype[]={
         STR_SERIAL,STR_TCPCLI,STR_TCPSVR,STR_NTRIPCLI,STR_FILE,STR_FTP,STR_HTTP
     };
@@ -543,6 +544,12 @@ void MainForm::SvrStart(void)
         tracelevel(TraceLevel);
     }
     for (int i=0;i<4;i++) paths[i]=str[i];
+
+	//allocate memory for cmd
+	for (int i = 0; i < 10; i++)
+	{
+		cmd[i] = temp[i];
+	}
     
     strs[0]=itype[Input->currentIndex()];
     strs[1]=otype[Output1->currentIndex()];
@@ -596,17 +603,23 @@ void MainForm::SvrStart(void)
         matcpy(conv[i]->out.sta.del,AntOff,3,1);
     }
     // stream server start
-	char** antPos;
-	const double * nmeaPos;
+	char* antPos[10];
+	const double  nmeaPos = 0;
+	
+	//allocate memory for antPos
+	for (int i = 0; i < 10; i++)
+	{
+		antPos[i] = temp[i];
+	}
 
-	*(antPos[0]) = *AntPos;
-
-    if (!strsvrstart(&strsvr,opt,strs,paths,conv, cmd, antPos, nmeaPos)) return;
+    if (!strsvrstart(&strsvr,opt,strs,paths,conv, cmd, antPos, &nmeaPos)) return;
     
     StartTime=utc2gpst(timeget());
     Panel1    ->setEnabled(false);
-    BtnStart  ->setVisible(false);
+    BtnStart  ->setVisible(true);
+	BtnStart  ->setEnabled(false);
     BtnStop   ->setVisible(true);
+	BtnStop   ->setEnabled(true);
     BtnOpt    ->setEnabled(false);
     BtnExit   ->setEnabled(false);
     MenuStart ->setEnabled(false);
@@ -618,7 +631,13 @@ void MainForm::SvrStart(void)
 void MainForm::SvrStop(void)
 {
     char* cmd[1024];
-    
+	static char temp[4][1024];
+	//allocate memory for cmd
+	for (int i = 0; i < 10; i++)
+	{
+		cmd[i] = temp[i];
+	}
+
     if (Input->currentIndex()==0) {
         if (CmdEna[1]) strncpy(cmd[0],qPrintable(Cmds[1]),1024);
     }
@@ -629,8 +648,10 @@ void MainForm::SvrStop(void)
     
     EndTime=utc2gpst(timeget());
     Panel1    ->setEnabled(true);
-    BtnStart  ->setVisible(true);
-    BtnStop   ->setVisible(false);
+	BtnStart->setVisible(true);
+	BtnStart->setEnabled(true);
+	//BtnStop->setVisible(false);
+	BtnStop->setEnabled(false);
     BtnOpt    ->setEnabled(true);
     BtnExit   ->setEnabled(true);
     MenuStart ->setEnabled(true);
